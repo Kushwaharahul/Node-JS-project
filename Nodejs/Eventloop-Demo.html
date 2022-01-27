@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Loop</title>
+</head>
+<body>
+ 
+</body>
+<script>
+ function addNumbers(a,b){
+    console.log(a+b);
+ }
+ addNumbers(5,6);
+</script>
+</html>
+
+<!-- In the Call Stack
+ Call Stack Empty
+-->
+
+<!-- In the Call Stack
+addNumbers(5,6)
+-->
+
+
+<!-- In the Call Stack
+console.log(5+6)
+addNumbers(5,6)
+-->
+
+
+<!-- In the Call Stack
+5+6
+console.log(a+b)
+addNumbers(5,6)
+-->
+
+<!-- In the Call Stack
+console.log(11)
+addNumbers(5,6)
+-->
+
+<!-- In the Call Stack
+addNumbers(5,6)
+-->
+
+<!-- In the Call Stack
+Call Stack Empty
+-->
